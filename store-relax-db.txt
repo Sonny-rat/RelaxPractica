@@ -1,0 +1,113 @@
+-- this is an example
+group: ventas 
+
+clientes = {
+id:number, nombre:string, apellido:string, sexo:string, telefono:string, poblacion:string
+300, Kally, Scarfe,F, 414-404-0387, Wisconsin
+301,Franzen,Roskam,M,917-545-8252,'New York'
+302,Sybille,Lindback,F,210-197-0317,Texas
+303,Fidelia,Wadwell,F,412-610-3364,Pennsylvania
+304,Miller,Frier,M,404-699-8690,Georgia
+305,Henrietta,Guillon,F,989-259-8443,Michigan
+306,Husein,Saladino,M,602-629-5819,Arizona
+307,Sue,Grimsdike,F,608-895-3055,Wisconsin
+308,Gianna,Cloughton,F,303-665-8288,Colorado
+309,Shea,Morgan,M,361-665-6697,Texas
+310,Lanny,Lehr,M,901-714-4042,Tennessee
+311,Shirleen,Jess,F,559-759-5081,California
+312,Tiphani,Dominighi,F,309-710-4451,Illinois
+313,Karlee,Merrill,F,615-459-8486,Tennessee
+314,Delora,Verheyden,F,309-802-2995,Illinois
+315,Pavel,Phittiplace,M,718-509-7005,'New York'
+316,Yetty,Oram,M,713-846-7033,Texas
+317,Olimpia,Deeming,F,607-496-0598,'New York'
+318,Angeli,Niblock,F,626-410-4502,California
+319,Oscar,Finan,M,719-355-9582,Colorado
+320,Garrott,Wattinham,M,502-309-9196,Kentucky
+321,Nappie,Adcock,M,720-293-5470,Colorado
+322,Royce,Mancer,M,208-395-6369,Oregon
+323,Zared,Nugent,M,260-594-8020,Indiana
+324,Merla,Fathers,F,701-889-7430,'North Dakota'
+325,Ilka,Caiger,F,574-281-5701,Indiana
+326,Araldo,Maggiori,M,402-986-3047,Nebraska
+327,Petunia,Constantine,F,408-200-6785,California
+328,Tom,Reddick,M,979-702-0113,Texas
+329,Mac,Tomala,M,202-712-0922,'District of Columbia'
+330,Lothaire,Denyukhin,M,713-544-4053,Texas
+331,Eddi,Pinard,M,504-476-9387,Louisiana
+332,Garreth,Klulisek,M,313-245-0276,Michigan
+333,Jeddy,Splevings,M,212-326-7057,'New York'
+334,Kessiah,Francillo,M,775-796-2956,Nevada
+335,Loren,Hortop,F,281-836-1189,Texas
+336,Esme,McNiven,F,405-399-4696,Oklahoma
+337,Moise,Vasyushkhin,M,336-272-7601,'North Carolina'
+338,Nonah,Pheazey,F,940-887-9670,Texas
+339,Gabriel,Moorfield,M,937-688-1435,Ohio
+340,Cristy,Putland,F,206-770-6937,Washington
+341,Lilia,Souness,F,512-416-4221,Texas
+342,Frazier,Eller,M,202-239-9775,'District of Columbia'
+343,Rance,Greenman,M,510-385-6370,California
+344,Morten,Toffoletto,M,616-118-4678,Michigan
+345,Dame,Dyott,M,313-242-2920,Michigan
+346,Malva,Selman,F,989-417-2669,Michigan
+347,Rosabelle,Comben,F,718-686-0723,'New York'
+348,Hedwig,Falconer,M,205-110-8218,Alabama
+349,Elfie,Carff,M,971-993-6571,Oregon
+}
+
+productos = {
+codigo_producto:number ,descripcion:string,categoria:string,precio:number
+200,'Grapefruit - White',Produce, 2.61
+201,'Myers Planters Punch',Grocery, 3.60
+202,'Dc - Sakura Fu',Grocery, 3.81
+203,'Bread - Granary Small Pull',Bakery, 3.63
+204,'Remy Red',Liquor, 2.13
+205,'Dried Apple',Produce, 2.04
+206,'Raspberry',Produce, 2.53
+207,'Pastry - Banana Muffin',Bakery, 4.14
+208,'Coconut - Shredded, Sweet',Produce, 2.16
+209,'Tart Shells - Sweet, 2',Bakery, 4.19
+210,'Soup - Campbells, Spinach Crm',Grocery, 4.75
+211,Pernod,Liquor, 4.54
+212,'Cheese - Grie Des Champ',Dairy, 3.63
+213,'Chicken Soup - Campbells',Grocery, 3.38
+214,'Chocolate Bar - Oh Henry',Candy, 3.47
+215,'Wine - White, Chardonnay',Liquor, 4.71
+216,'Spice - Onion Powder Granulated',Grocery, 3.71
+217,"Lamb - Leg, Diced",Meats, 2.05
+218,'Cranberry Foccacia',Bakery, 2.14
+219,'Puff Pastry - Sheets',Bakery, 3.27
+220,'Bagelers - Cinn Brown Sugar',Bakery, 3.88
+221,'Muffin Batt - Carrot Spice',Bakery, 2.79
+222,'Skippy Peanut Butter - 3oz',Grocery, 3.03
+223,'Raspberries - Frozen',Produce, 4.52
+224,Amaretto,Liquor, 2.81
+}
+ventas = {
+codigo_producto:number, id:number,cantidad:number,id_venta:number
+204,324,1,1609
+200,345,5,4494
+222,331,6,9031
+209,338,2,0248
+214,319,7,2566
+221,318,8,6123
+217,345,3,9532
+212,311,7,3036
+224,310,7,7286
+213,335,4,9409
+208,337,9,3514
+224,304,8,1042
+215,311,1,6321
+205,304,8,8774
+206,309,9,4732
+216,300,9,8605
+208,335,2,0237
+206,338,10,1120
+214,307,5,8940
+221,345,10,9519
+219,309,9,2916
+211,310,7,0754
+200,346,6,3423
+205,313,7,0846
+223,327,6,1437
+}
